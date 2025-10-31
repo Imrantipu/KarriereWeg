@@ -1,6 +1,6 @@
 
 # Use an official Node.js runtime as a parent image
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Set the working directory in the container
 WORKDIR /app
@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 3000
 
 # Define the command to run the app
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
