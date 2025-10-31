@@ -1,0 +1,47 @@
+# Ignore Python virtual environment
+.venv/
+env/
+
+# Ignore build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# Ignore test-related files
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Ignore logs
+*.log
+
+# Ignore instance-specific data
+instance/
+
+# Ignore .env files
+.env
+
+# Ignore packaging and testing artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+wheels/
+.tox/
+.nox/
+.hypothesis/
+celerybeat-schedule
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
